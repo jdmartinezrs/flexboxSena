@@ -11,11 +11,30 @@
 }
 
 .Header {
+    
     height: 4rem;
     width: 100%;
     background-color: var(--color-grey-primary);
 }
 
+.Header__avatar{
+    display: flex;
+    align-items: center;  
+    gap: 8px;  
+    margin-right: 75%;
+}
+
+
+.Header__avatar img{
+      width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.Header__name{
+    margin: 0;
+}
 .Header__container {
     height: 100%;
     display: flex;
