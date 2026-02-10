@@ -2,11 +2,17 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+    font-size: small;
+    color: var()
 }
 
 .Header {
     height: 4rem;
-    width: 100vw;
+    width: 100%;
     background-color: var(--color-grey-primary);
 }
 
@@ -26,9 +32,10 @@
 
 .Header__nav {
     display: flex;
-    justify-content: center;   
+    justify-content: center;
 }
 
-.Header__link{
+.Header__link {
     text-decoration: none;
+    color: var(--color-font-negative)
 }

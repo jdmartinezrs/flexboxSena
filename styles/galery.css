@@ -1,0 +1,28 @@
+
+.Layout__content-galery{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap : 2rem;
+  padding: 4rem;
+}
+
+.Layout__content-card{
+  width: 200px;
+  height: 200px;
+}
+
+.Layout__content-title{
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+.Layout__content-title p{
+    font-size: 3rem;
+}
+
+.Layout__content-img{
+    width:40px;
+    height: 40px;
+}

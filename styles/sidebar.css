@@ -12,6 +12,7 @@
     gap: 10px;
     border-radius: 1rem;
     box-shadow: 0 2px 8px var(--color-shadows);
+     
 }
 
 .Layout__card-image{
@@ -19,10 +20,13 @@
 }
 
 .Layout__card-button{
+   display: flex;        
+  align-items: center;         
+  justify-content: center;  
   padding: 10px 18px;
   border-radius: 8px;
-  background: #8A20D5;
-  color: white;
+  background: var(--color-grey-primary);
+  color: var(--color-font-negative);
   font-size: 14px;
   font-weight: 600;
   text-decoration: none;  
@@ -34,5 +38,9 @@
 .Layout__card-button:hover {
   transform: translateY(-1px);
   box-shadow: 0 6px 14px var(--color-shadows);
-  background: #7a1cc0;
+  background: var(--color-purple-complement);
+}
+
+.Layout__card-description{
+  text-align: center;  
 }

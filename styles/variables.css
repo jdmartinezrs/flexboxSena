@@ -3,5 +3,9 @@
      --color-backgorund:#eee;
      --color-light-background: #f9f9f9;
      --color-shadows: rgba(0, 0, 0, 0.08);
+     --color-font-negative:#eee;
+     --color-font-total:#515357;
+     --color-purple-complement:#6e1bad;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
