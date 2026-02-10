@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.Header {
+    height: 4rem;
+    width: 100vw;
+    background-color: var(--color-grey-primary);
+}
+
+.Header__container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-right: 1.5rem;
+    justify-content: flex-end;
+}
+
+.Header__menu {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+
+.Header__nav {
+    display: flex;
+    justify-content: center;   
+}
+
+.Header__link{
+    text-decoration: none;
+}
