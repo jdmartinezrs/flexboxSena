@@ -1,0 +1,22 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.Layout{
+  min-height: calc(100vh - 7rem);           
+  display: flex;
+}
+
+.Layout__sidebar{
+  width: 250px;
+  background: #eee;
+  padding: 1rem;
+}
+
+.Layout__content{
+  flex: 1;
+  background: #f9f9f9;
+  padding: 1rem;
+}
