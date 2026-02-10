@@ -1,4 +1,7 @@
 :root{
      --color-grey-primary: #6f7584;
+     --color-backgorund:#eee;
+     --color-light-background: #f9f9f9;
+     --color-shadows: rgba(0, 0, 0, 0.08);
 }
 

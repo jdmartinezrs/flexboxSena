@@ -1,0 +1,38 @@
+.Layout__sidebar{
+  width: 250px;
+  background: var(--color-backgorund);
+  padding: 1rem;
+}
+
+.Layout__card{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-light-background);
+    padding: 1.5rem;
+    gap: 10px;
+    border-radius: 1rem;
+    box-shadow: 0 2px 8px var(--color-shadows);
+}
+
+.Layout__card-image{
+    border-radius: 1rem;
+}
+
+.Layout__card-button{
+  padding: 10px 18px;
+  border-radius: 8px;
+  background: #8A20D5;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;  
+  cursor: pointer;
+  box-shadow: 0 2px 8px var(--color-shadows);
+
+}
+
+.Layout__card-button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 14px var(--color-shadows);
+  background: #7a1cc0;
+}
