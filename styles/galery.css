@@ -25,4 +25,5 @@
 .Layout__content-img{
     width:40px;
     height: 40px;
+    object-fit: cover;
 }
