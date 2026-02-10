@@ -4,5 +4,13 @@
   align-items: center;
   justify-content: center;
   background: #ddd;
+  justify-content: space-around;
 }
 
+.Footer__columna{
+  height: 100%;
+  display: flex;
+  justify-content: center;   
+  align-items: center;       
+  text-align: center;        
+}

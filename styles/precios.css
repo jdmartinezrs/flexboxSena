@@ -1,0 +1,18 @@
+.Layout__content-precios{
+display: flex;
+
+  flex-wrap: wrap;
+  width: 100%;
+  gap : 2rem;
+  padding: 4rem;
+  
+  
+}
+
+.Layout__precios-card{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+  height: 300px;
+  padding: 10px;
+}
