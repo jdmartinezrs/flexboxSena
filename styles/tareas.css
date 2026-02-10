@@ -1,0 +1,22 @@
+.Layout__sidebar-tareas{
+    padding: 10px;
+     height: 50%;
+}
+
+.Layout__sidebar-cards{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+.tareas__card{
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    width: 100%;
+    background-color: var(--color-purple-complement);
+    justify-content: center;
+    color: var( --color-font-negative);
+    padding: 5px;
+    
+}
