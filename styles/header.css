@@ -11,19 +11,21 @@
 }
 
 .Header {
-    
+    display: flex;
     height: 4rem;
     width: 100%;
     background-color: var(--color-grey-primary);
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
 }
 
 .Header__avatar{
     display: flex;
     align-items: center;  
     gap: 8px;  
-    margin-right: 75%;
+    margin-left: 75;
 }
-
 
 .Header__avatar img{
       width: 30px;
@@ -35,26 +37,36 @@
 .Header__name{
     margin: 0;
 }
+
 .Header__container {
     height: 100%;
     display: flex;
     align-items: center;
     margin-right: 1.5rem;
-    justify-content: flex-end;
+    
+    background-color: brown;
 }
 
 .Header__menu {
     display: flex;
     gap: 2rem;
     list-style: none;
+    justify-content: end;
+    
+    
 }
 
 .Header__nav {
     display: flex;
-    justify-content: center;
+    
 }
 
 .Header__link {
     text-decoration: none;
     color: var(--color-font-negative)
+}
+
+.Header__container {
+    display: flex;
+    justify-content: start;
 }
